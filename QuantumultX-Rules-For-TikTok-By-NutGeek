@@ -11,16 +11,16 @@ server=1.0.0.1
 server=8.8.8.8
 
 [policy]
-static=🔰 节点选择, ♻️ 自动选择, 🎯 全球直连, NutGeek.Com-多伦多, 🇺🇸 NutGeek.Com-洛杉矶, img-url=https://raw.githubusercontent.com/Koolson/Qure/master/IconSet/Proxy.png
-available=♻️ 自动选择, NutGeek.Com-多伦多, 🇺🇸 NutGeek.Com-洛杉矶, img-url=https://raw.githubusercontent.com/Koolson/Qure/master/IconSet/Auto.png
-static=🌍 国外媒体, 🔰 节点选择, ♻️ 自动选择, 🎯 全球直连, NutGeek.Com-多伦多, 🇺🇸 NutGeek.Com-洛杉矶, img-url=https://raw.githubusercontent.com/Koolson/Qure/master/IconSet/GlobalMedia.png
+static=🔰 节点选择, ♻️ 自动选择, 🎯 全球直连, NutGeek.Com-多伦多, NutGeek.Com-洛杉矶, img-url=https://raw.githubusercontent.com/Koolson/Qure/master/IconSet/Proxy.png
+available=♻️ 自动选择, NutGeek.Com-多伦多, NutGeek.Com-洛杉矶, img-url=https://raw.githubusercontent.com/Koolson/Qure/master/IconSet/Auto.png
+static=🌍 国外媒体, 🔰 节点选择, ♻️ 自动选择, 🎯 全球直连, NutGeek.Com-多伦多, NutGeek.Com-洛杉矶, img-url=https://raw.githubusercontent.com/Koolson/Qure/master/IconSet/GlobalMedia.png
 static=🌏 国内媒体, 🎯 全球直连, 🔰 节点选择, img-url=https://raw.githubusercontent.com/Koolson/Qure/master/IconSet/DomesticMedia.png
-static=Ⓜ️ 微软服务, 🎯 全球直连, 🔰 节点选择, NutGeek.Com-多伦多, 🇺🇸 NutGeek.Com-洛杉矶, img-url=https://raw.githubusercontent.com/Koolson/Qure/master/IconSet/Microsoft.png
-static=📲 电报信息, 🔰 节点选择, 🎯 全球直连, NutGeek.Com-多伦多, 🇺🇸 NutGeek.Com-洛杉矶, img-url=https://raw.githubusercontent.com/Koolson/Qure/master/IconSet/Telegram.png
-static=🍎 苹果服务, 🔰 节点选择, 🎯 全球直连, ♻️ 自动选择, NutGeek.Com-多伦多, 🇺🇸 NutGeek.Com-洛杉矶, img-url=https://raw.githubusercontent.com/Koolson/Qure/master/IconSet/Apple.png
+static=Ⓜ️ 微软服务, 🎯 全球直连, 🔰 节点选择, NutGeek.Com-多伦多, NutGeek.Com-洛杉矶, img-url=https://raw.githubusercontent.com/Koolson/Qure/master/IconSet/Microsoft.png
+static=📲 电报信息, 🔰 节点选择, 🎯 全球直连, NutGeek.Com-多伦多, NutGeek.Com-洛杉矶, img-url=https://raw.githubusercontent.com/Koolson/Qure/master/IconSet/Telegram.png
+static=🍎 苹果服务, 🔰 节点选择, 🎯 全球直连, ♻️ 自动选择, NutGeek.Com-多伦多, NutGeek.Com-洛杉矶, img-url=https://raw.githubusercontent.com/Koolson/Qure/master/IconSet/Apple.png
 static=🎯 全球直连, DIRECT, img-url=https://raw.githubusercontent.com/Koolson/Qure/master/IconSet/Direct.png
 static=🛑 全球拦截, REJECT, DIRECT, img-url=https://raw.githubusercontent.com/Koolson/Qure/master/IconSet/Advertising.png
-static=🐟 漏网之鱼, 🔰 节点选择, 🎯 全球直连, ♻️ 自动选择, NutGeek.Com-多伦多, 🇺🇸 NutGeek.Com-洛杉矶, img-url=https://raw.githubusercontent.com/Koolson/Qure/master/IconSet/Final.png
+static=🐟 漏网之鱼, 🔰 节点选择, 🎯 全球直连, ♻️ 自动选择, NutGeek.Com-多伦多, NutGeek.Com-洛杉矶, img-url=https://raw.githubusercontent.com/Koolson/Qure/master/IconSet/Final.png
 [server_remote]
 
 [filter_remote]
@@ -43,7 +43,7 @@ https://raw.githubusercontent.com/NobyDa/Script/master/QuantumultX/Js.conf,tag=N
 
 [server_local]
 vmess=dld.v2cat.cf:443,method=chacha20-ietf-poly1305,password=8291f518-39e2-452f-99e0-eb3893acd573,obfs=wss,obfs-host=dld.v2cat.cf,obfs-uri=/nutgeek,tag=NutGeek.Com-多伦多
-vmess=jjs.v2cat.cf:443,method=chacha20-ietf-poly1305,password=08d3911f-3837-4018-bbed-49125d259129,obfs=wss,obfs-host=jjs.v2cat.cf,obfs-uri=/nutgeek,tag=NutGeek.Com-洛杉矶
+vmess=jjs.v2cat.cf:443,method=chacha20-ietf-poly1305,password=08d3911f-3837-4018-bbed-49125d259129,obfs=wss,obfs-host=jjs.v2cat.cf,obfs-uri=/nutgeek,tag= NutGeek.Com-洛杉矶
 
 [filter_local]
 GEOIP,CN,直连服务
