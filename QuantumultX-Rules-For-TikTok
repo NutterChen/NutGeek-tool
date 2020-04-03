@@ -46,8 +46,8 @@ vmess=dld.v2cat.cf:443,method=chacha20-ietf-poly1305,password=8291f518-39e2-452f
 vmess=jjs.v2cat.cf:443,method=chacha20-ietf-poly1305,password=08d3911f-3837-4018-bbed-49125d259129,obfs=wss,obfs-host=jjs.v2cat.cf,obfs-uri=/nutgeek,tag=NutGeek.Com-洛杉矶
 
 [filter_local]
-GEOIP,CN,直连服务
-FINAL,其他服务
+GEOIP,CN,🎯 全球直连
+FINAL,🐟 漏网之鱼
 
 [rewrite_local]
 (?<=(carrier|sys)_region=)CN url 307 JP
