@@ -39,7 +39,7 @@ https://api.dler.io/getruleset?type=2&url=cnVsZXMvTm9ieURhL1N1cmdlL0Rvd25sb2FkLm
 
 [rewrite_remote]
 https://raw.githubusercontent.com/ConnersHua/Profiles/master/Quantumult/X/Rewrite.conf,tag=花姐,enabled=true
-https://raw.githubusercontent.com/NobyDa/Script/master/QuantumultX/Js.conf,tag=NobyDa,enabled=true
+https://github.com/NutterChen/NutGeek-tool/raw/master/js-copy-NobyDa.json,tag=NobyDa,enabled=true
 
 [server_local]
 vmess=dld.v2cat.cf:443,method=chacha20-ietf-poly1305,password=8291f518-39e2-452f-99e0-eb3893acd573,obfs=wss,obfs-host=dld.v2cat.cf,obfs-uri=/nutgeek,tag=NutGeek.Com-多伦多
