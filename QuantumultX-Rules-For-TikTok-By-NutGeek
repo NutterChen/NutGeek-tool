@@ -11,32 +11,31 @@ server=1.0.0.1
 server=8.8.8.8
 
 [policy]
-static=手动选择,自动选择,直连服务,NutGeek.Com-多伦多,NutGeek.Com-洛杉矶,img-url=https://raw.githubusercontent.com/Koolson/Qure/master/IconSet/Proxy.png
-available=自动选择,NutGeek.Com-多伦多,NutGeek.Com-洛杉矶,img-url=https://raw.githubusercontent.com/Koolson/Qure/master/IconSet/Auto.png
-static=国外媒体,手动选择,自动选择,直连服务,NutGeek.Com-多伦多,NutGeek.Com-洛杉矶,img-url=https://raw.githubusercontent.com/Koolson/Qure/master/IconSet/GlobalMedia.png
-static=国内媒体,直连服务,手动选择,img-url=https://raw.githubusercontent.com/Koolson/Qure/master/IconSet/DomesticMedia.png
-static=微软服务,直连服务,手动选择,NutGeek.Com-多伦多,NutGeek.Com-洛杉矶,img-url=https://raw.githubusercontent.com/Koolson/Qure/master/IconSet/Microsoft.png
-static=电报信息,手动选择,直连服务,NutGeek.Com-多伦多,NutGeek.Com-洛杉矶,img-url=https://raw.githubusercontent.com/Koolson/Qure/master/IconSet/Telegram.png
-static=苹果服务,手动选择,直连服务,自动选择,NutGeek.Com-多伦多,NutGeek.Com-洛杉矶,img-url=https://raw.githubusercontent.com/Koolson/Qure/master/IconSet/Apple.png
-static=直连服务,DIRECT,img-url=https://raw.githubusercontent.com/Koolson/Qure/master/IconSet/Direct.png
-static=广告拦截,REJECT,DIRECT,img-url=https://raw.githubusercontent.com/Koolson/Qure/master/IconSet/Advertising.png
-static=其他服务,手动选择,直连服务,自动选择,NutGeek.Com-多伦多,NutGeek.Com-洛杉矶,img-url=https://raw.githubusercontent.com/Koolson/Qure/master/IconSet/Final.png
-
+static=🔰 节点选择, ♻️ 自动选择, 🎯 全球直连, NutGeek.Com-多伦多, 🇺🇸 NutGeek.Com-洛杉矶, img-url=https://raw.githubusercontent.com/Koolson/Qure/master/IconSet/Proxy.png
+available=♻️ 自动选择, NutGeek.Com-多伦多, 🇺🇸 NutGeek.Com-洛杉矶, img-url=https://raw.githubusercontent.com/Koolson/Qure/master/IconSet/Auto.png
+static=🌍 国外媒体, 🔰 节点选择, ♻️ 自动选择, 🎯 全球直连, NutGeek.Com-多伦多, 🇺🇸 NutGeek.Com-洛杉矶, img-url=https://raw.githubusercontent.com/Koolson/Qure/master/IconSet/GlobalMedia.png
+static=🌏 国内媒体, 🎯 全球直连, 🔰 节点选择, img-url=https://raw.githubusercontent.com/Koolson/Qure/master/IconSet/DomesticMedia.png
+static=Ⓜ️ 微软服务, 🎯 全球直连, 🔰 节点选择, NutGeek.Com-多伦多, 🇺🇸 NutGeek.Com-洛杉矶, img-url=https://raw.githubusercontent.com/Koolson/Qure/master/IconSet/Microsoft.png
+static=📲 电报信息, 🔰 节点选择, 🎯 全球直连, NutGeek.Com-多伦多, 🇺🇸 NutGeek.Com-洛杉矶, img-url=https://raw.githubusercontent.com/Koolson/Qure/master/IconSet/Telegram.png
+static=🍎 苹果服务, 🔰 节点选择, 🎯 全球直连, ♻️ 自动选择, NutGeek.Com-多伦多, 🇺🇸 NutGeek.Com-洛杉矶, img-url=https://raw.githubusercontent.com/Koolson/Qure/master/IconSet/Apple.png
+static=🎯 全球直连, DIRECT, img-url=https://raw.githubusercontent.com/Koolson/Qure/master/IconSet/Direct.png
+static=🛑 全球拦截, REJECT, DIRECT, img-url=https://raw.githubusercontent.com/Koolson/Qure/master/IconSet/Advertising.png
+static=🐟 漏网之鱼, 🔰 节点选择, 🎯 全球直连, ♻️ 自动选择, NutGeek.Com-多伦多, 🇺🇸 NutGeek.Com-洛杉矶, img-url=https://raw.githubusercontent.com/Koolson/Qure/master/IconSet/Final.png
 [server_remote]
 
 [filter_remote]
-https://api.dler.io/getruleset?type=2&url=cnVsZXMvTG9jYWxBcmVhTmV0d29yay5saXN0&group=8J-OryDlhajnkIPnm7Tov54,tag=直连服务,enabled=true
-https://api.dler.io/getruleset?type=2&url=cnVsZXMvTVNTZXJ2aWNlcy5saXN0&group=4pOC77iPIOW-rui9r-acjeWKoQ,tag=微软服务,enabled=true
-https://api.dler.io/getruleset?type=2&url=cnVsZXMvQ29ubmVyc0h1YS9TdXJnZS9SdWxlc2V0L1VuYnJlYWsubGlzdA&group=8J-OryDlhajnkIPnm7Tov54,tag=直连服务,enabled=true
-https://api.dler.io/getruleset?type=2&url=cnVsZXMvTm9ieURhL1N1cmdlL0FkUnVsZS5saXN0&group=8J-bkSDlhajnkIPmi6bmiKo,tag=广告拦截,enabled=true
-https://api.dler.io/getruleset?type=2&url=cnVsZXMvQ29ubmVyc0h1YS9TdXJnZS9SdWxlc2V0L0hpamFja2luZy5saXN0&group=8J-bkSDlhajnkIPmi6bmiKo,tag=广告拦截,enabled=true
-https://api.dler.io/getruleset?type=2&url=cnVsZXMvQ29ubmVyc0h1YS9TdXJnZS9SdWxlc2V0L0dsb2JhbE1lZGlhLmxpc3Q&group=8J-MjSDlm73lpJblqpLkvZM,tag=国外媒体,enabled=true
-https://api.dler.io/getruleset?type=2&url=cnVsZXMvbGhpZTEvU3VyZ2UvU3VyZ2UgMy9Qcm92aWRlci9Bc2lhblRWLmxpc3Q&group=8J-MjyDlm73lhoXlqpLkvZM,tag=国内媒体,enabled=true
-https://api.dler.io/getruleset?type=2&url=cnVsZXMvQ29ubmVyc0h1YS9TdXJnZS9SdWxlc2V0L1RlbGVncmFtLmxpc3Q&group=8J-TsiDnlLXmiqXkv6Hmga8,tag=电报信息,enabled=true
-https://api.dler.io/getruleset?type=2&url=cnVsZXMvQ29ubmVyc0h1YS9TdXJnZS9SdWxlc2V0L0dsb2JhbC5saXN0&group=8J-UsCDoioLngrnpgInmi6k,tag=手动选择,enabled=true
-https://api.dler.io/getruleset?type=2&url=cnVsZXMvQ29ubmVyc0h1YS9TdXJnZS9SdWxlc2V0L0FwcGxlLmxpc3Q&group=8J-NjiDoi7nmnpzmnI3liqE,tag=苹果服务,enabled=true
-https://api.dler.io/getruleset?type=2&url=cnVsZXMvQ29ubmVyc0h1YS9TdXJnZS9SdWxlc2V0L0NoaW5hLmxpc3Q&group=8J-OryDlhajnkIPnm7Tov54,tag=直连服务,enabled=true
-https://api.dler.io/getruleset?type=2&url=cnVsZXMvTm9ieURhL1N1cmdlL0Rvd25sb2FkLmxpc3Q&group=8J-OryDlhajnkIPnm7Tov54,tag=直连服务,enabled=true
+https://api.dler.io/getruleset?type=2&url=cnVsZXMvTG9jYWxBcmVhTmV0d29yay5saXN0&group=8J-OryDlhajnkIPnm7Tov54, tag=🎯 全球直连, enabled=true
+https://api.dler.io/getruleset?type=2&url=cnVsZXMvTVNTZXJ2aWNlcy5saXN0&group=4pOC77iPIOW-rui9r-acjeWKoQ, tag=Ⓜ️ 微软服务, enabled=true
+https://api.dler.io/getruleset?type=2&url=cnVsZXMvQ29ubmVyc0h1YS9TdXJnZS9SdWxlc2V0L1VuYnJlYWsubGlzdA&group=8J-OryDlhajnkIPnm7Tov54, tag=🎯 全球直连, enabled=true
+https://api.dler.io/getruleset?type=2&url=cnVsZXMvTm9ieURhL1N1cmdlL0FkUnVsZS5saXN0&group=8J-bkSDlhajnkIPmi6bmiKo, tag=🛑 全球拦截, enabled=true
+https://api.dler.io/getruleset?type=2&url=cnVsZXMvQ29ubmVyc0h1YS9TdXJnZS9SdWxlc2V0L0hpamFja2luZy5saXN0&group=8J-bkSDlhajnkIPmi6bmiKo, tag=🛑 全球拦截, enabled=true
+https://api.dler.io/getruleset?type=2&url=cnVsZXMvQ29ubmVyc0h1YS9TdXJnZS9SdWxlc2V0L0dsb2JhbE1lZGlhLmxpc3Q&group=8J-MjSDlm73lpJblqpLkvZM, tag=🌍 国外媒体, enabled=true
+https://api.dler.io/getruleset?type=2&url=cnVsZXMvbGhpZTEvU3VyZ2UvU3VyZ2UgMy9Qcm92aWRlci9Bc2lhblRWLmxpc3Q&group=8J-MjyDlm73lhoXlqpLkvZM, tag=🌏 国内媒体, enabled=true
+https://api.dler.io/getruleset?type=2&url=cnVsZXMvQ29ubmVyc0h1YS9TdXJnZS9SdWxlc2V0L1RlbGVncmFtLmxpc3Q&group=8J-TsiDnlLXmiqXkv6Hmga8, tag=📲 电报信息, enabled=true
+https://api.dler.io/getruleset?type=2&url=cnVsZXMvQ29ubmVyc0h1YS9TdXJnZS9SdWxlc2V0L0dsb2JhbC5saXN0&group=8J-UsCDoioLngrnpgInmi6k, tag=🔰 节点选择, enabled=true
+https://api.dler.io/getruleset?type=2&url=cnVsZXMvQ29ubmVyc0h1YS9TdXJnZS9SdWxlc2V0L0FwcGxlLmxpc3Q&group=8J-NjiDoi7nmnpzmnI3liqE, tag=🍎 苹果服务, enabled=true
+https://api.dler.io/getruleset?type=2&url=cnVsZXMvQ29ubmVyc0h1YS9TdXJnZS9SdWxlc2V0L0NoaW5hLmxpc3Q&group=8J-OryDlhajnkIPnm7Tov54, tag=🎯 全球直连, enabled=true
+https://api.dler.io/getruleset?type=2&url=cnVsZXMvTm9ieURhL1N1cmdlL0Rvd25sb2FkLmxpc3Q&group=8J-OryDlhajnkIPnm7Tov54, tag=🎯 全球直连, enabled=true
 
 [rewrite_remote]
 https://raw.githubusercontent.com/ConnersHua/Profiles/master/Quantumult/X/Rewrite.conf,tag=花姐,enabled=true
