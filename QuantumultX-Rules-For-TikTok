@@ -38,7 +38,7 @@ https://api.dler.io/getruleset?type=2&url=cnVsZXMvQ29ubmVyc0h1YS9TdXJnZS9SdWxlc2
 https://api.dler.io/getruleset?type=2&url=cnVsZXMvTm9ieURhL1N1cmdlL0Rvd25sb2FkLmxpc3Q&group=8J-OryDlhajnkIPnm7Tov54, tag=🎯 全球直连, enabled=true
 
 [rewrite_remote]
-https://raw.githubusercontent.com/ConnersHua/Profiles/master/Quantumult/X/Rewrite.conf,tag=花姐,enabled=true
+https://github.com/NutterChen/NutGeek-tool/raw/master/Rewrite-By-ConnersHua.json,tag=ConnersHua,enabled=true
 https://github.com/NutterChen/NutGeek-tool/raw/master/js-copy-NobyDa.json,tag=NobyDa,enabled=true
 
 [server_local]
